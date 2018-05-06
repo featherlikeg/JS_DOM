@@ -1,0 +1,21 @@
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+.chatItem {
+  border: 1px solid #888;
+  margin-top: 10px;
+}
+.person {
+  background-color: #e8e8e8;
+  padding: 0 10px;
+}
+.message {
+  margin: 0 10px;
+}
+.chatItem:nth-child(even) {
+  overflow: hidden;
+}
+.chatItem:nth-child(even) * {
+  float: right;
+}
